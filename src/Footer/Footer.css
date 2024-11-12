@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 20vh;
+
+}
+.footer-contact-icon{
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    color:white ;
+}
+@media (max-width:1000px) {
+    
+    
+}

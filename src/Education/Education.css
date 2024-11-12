@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.education{
+    margin-top: 50px;
+}
+.education p:nth-child(3){
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+.education-desc{
+
+    
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.school ,.collage{
+    
+    text-align: center;
+    height: 45vh;
+    width: 40vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+.collage img{
+    
+    height: 50px;
+    width: 50px;
+    
+}
+.school img{
+    height: 50px;
+    width: 50px;
+    
+}
+.education p:last-child{
+    padding: 20px 30px;
+}
+@media (max-width:1000px) {
+    .education-desc{
+        margin: 0px 0px;
+        display: flex;
+        align-items: center;
+       
+        flex-direction: column;
+        
+        
+    }
+    .school ,.collage{
+        text-align: center;
+        height: auto;
+        width: auto;
+        overflow: hidden;
+        margin: 20px 0px;
+        
+    }
+    .education{
+        margin: 20px  0px;
+    }
+    
+}

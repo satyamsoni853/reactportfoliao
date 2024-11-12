@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Funnel+Display:wght@300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sour Gummy", serif;
+    font-size: 1.2rem;
+}
+.navbarr{
+    height: 10vh;
+}
+
+.sidebarr ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+   
+}
+.sidebarr ul li:last-child{
+    display: block;
+}
+.sidebarr{
+    margin-top: 20px;
+}
+.sidebarr ul li:first-child{
+    margin-right: auto;
+    margin-left: 30px;
+}
+.sidebarr ul:last-child{
+    margin-right: 50px;
+}
+.closebarr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: start;
+    margin-right: 50px;
+}
+@media (max-width:1000px) {
+    .sidebarr ul li:nth-child(2),
+    .sidebarr ul li:nth-child(3),
+    .sidebarr ul li:nth-child(4),
+    .sidebarr ul li:nth-child(5){
+        display: none;
+    }
+   
+   
+    
+}
+@media (min-width: 1000px) {
+    .sidebarr ul li:last-child {
+        display: none; 
+    }
+}
