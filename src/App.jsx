@@ -7,6 +7,7 @@ import Education from './Education/Education'
 import Footer from './Footer/Footer'
 import Project from './Project/Project'
 import Aboutme from './Aboutme/Aboutme'
+import Certification from './Certification/Certification'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Education />
           <Project />
           <Skill />
+          <Certification/>
           <Contact />
           <Footer />
         </>

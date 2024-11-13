@@ -4,7 +4,10 @@ import './Contact.css'
 function Contact() {
   return (
     <div className='body'>
+      <p className='label heading'>Get In Touch</p>
+      <p className=' heading topic ' >Contact Us</p>
         <div className="contact-container">
+          
             <form action="https://api.web3forms.com/submit" method="POST" className='contact-left'>
                 <div className="contact-left-title">
                     <h2>Get In Touch</h2>

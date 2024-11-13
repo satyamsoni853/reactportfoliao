@@ -55,6 +55,9 @@
 .container:nth-child(8) {
   animation-delay: 7s;
 }
+.container:nth-child(9) {
+  animation-delay: 8s;
+}
 .text-box {
   padding: 20px 30px;
   background: #B0E0E6 ;

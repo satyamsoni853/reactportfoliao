@@ -46,9 +46,9 @@ function Project() {
           </div>
         </div>
         <motion.div
-          initial={{ opacity: 0, translateX: "10%" }}
-          whileInView={{ opacity: 1, translateX: 0 }}
-          transition={{ duration: 1 }}
+          initial={{opacity:0,scale:0}}
+          whileInView={{opacity:1,scale:1}}
+          transition={{duration:1}}
           class="project-container"
         >
           <div class="project-wrapper">
