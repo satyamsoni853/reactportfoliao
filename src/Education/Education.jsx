@@ -44,7 +44,7 @@ function education() {
           <p>
             12th:{" "}
             <span>
-              Sangam Moder Intermediate School <br /> (Up borad)
+              Sangam Modern Inter College Prayagraj <br /> (Up borad)
             </span>{" "}
           </p>
         </motion.div>
