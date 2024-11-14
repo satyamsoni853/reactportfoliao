@@ -30,9 +30,7 @@
 
 }
 
-.education-type{
-    color: white;
-}
+
 .education-type p:nth-child(2){
     color: white;
 }
@@ -96,6 +94,13 @@
     }
     .education{
         margin: 20px  0px;
+    }
+    .school ,.collage, .training{
+    
+        
+        height: auto;
+        width: 100%;
+        
     }
     
 }

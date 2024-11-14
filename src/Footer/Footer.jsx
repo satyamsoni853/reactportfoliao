@@ -8,7 +8,9 @@ import { FaGithub } from "react-icons/fa";
 function Footer() {
   return (
     <div className='footer'  >
+        <div>
         <p>© 2014-2025  All rights reserved. </p>
+        </div>
         <div className="footer-contact-icon">
           <a
             href="https://www.linkedin.com/in/satyam-soni-833873293"

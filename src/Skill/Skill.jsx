@@ -23,12 +23,9 @@ function Skill() {
             <div className="text-box">
               <p className="topic heading">HTML</p>
               <p className="skill-desc">
-                Building structured, accessible, and responsive web pages with
-                clean and semantic HTML. I focus on creating well-organized
-                layouts that enhance user experience and maintain best practices
-                for SEO, making my sites both user-friendly and search-engine
-                friendly.
-              </p>
+  Crafting responsive, accessible web pages with clean HTML and SEO-friendly layouts for a smooth user experience.
+</p>
+
 
               <span className="left-container-arrow"></span>
             </div>
@@ -38,12 +35,9 @@ function Skill() {
             <div className="text-box">
               <p className="topic heading">CSS</p>
               <p className="skill-desc">
-                Crafting visually appealing, responsive designs with CSS,
-                utilizing modern techniques like Flexbox, Grid, and animations
-                to bring web pages to life. My CSS skills focus on creating
-                clean, scalable styles that enhance both usability and aesthetic
-                appeal across all devices.
-              </p>
+  Creating responsive, visually appealing designs using CSS, with Flexbox, Grid, and animations for a seamless user experience.
+</p>
+
 
               <span className="right-container-arrow"></span>
             </div>
@@ -53,12 +47,9 @@ function Skill() {
             <div className="text-box">
               <p className="topic heading">JavaScrpit</p>
               <p className="skill-desc">
-                Developing interactive and dynamic web applications with
-                JavaScript, leveraging modern frameworks and libraries to build
-                seamless user experiences. My JavaScript skills focus on
-                efficient, scalable code, bringing functionality to the front
-                end and enhancing user engagement.
-              </p>
+  Building interactive web applications with JavaScript, using modern frameworks for efficient, engaging user experiences.
+</p>
+
 
               <span className="left-container-arrow"></span>
             </div>
@@ -68,12 +59,9 @@ function Skill() {
             <div className="text-box">
               <p className="topic heading">React Js</p>
               <p className="skill-desc">
-                Building efficient and high-performing user interfaces with
-                React JS, focusing on reusable components, state management, and
-                seamless user interactions. My expertise includes leveraging
-                React’s ecosystem to create responsive, interactive, and
-                scalable web applications.
-              </p>
+  Creating high-performing user interfaces with React JS, emphasizing reusable components, state management, and interactivity.
+</p>
+
 
               <span className="right-container-arrow"></span>
             </div>
@@ -82,7 +70,10 @@ function Skill() {
             <img src={javaimg} alt="" />
             <div className="text-box">
             <p className='topic heading' >Java</p>
-            <p className="skill-desc">Proficient in Java programming with a focus on object-oriented principles, building robust and efficient applications. My experience includes working with core Java concepts, data structures, and developing scalable solutions using Java frameworks for full-stack development.</p>
+            <p className="skill-desc">
+  Skilled in Java programming, focusing on OOP, data structures, and scalable solutions using Java frameworks for full-stack development.
+</p>
+
 
               <span className="left-container-arrow"></span>
             </div>
@@ -91,7 +82,10 @@ function Skill() {
             <img src={sqlimg} alt="" />
             <div className="text-box">
             <p className='topic heading' >SQL</p>
-            <p className="skill-desc" >Skilled in SQL for designing and managing databases, performing complex queries, and ensuring data integrity. Experienced in creating efficient database structures, optimizing query performance, and managing relational databases to support scalable applications.</p>
+            <p className="skill-desc">
+  Proficient in SQL for designing and managing databases, optimizing queries, and ensuring data integrity for scalable applications.
+</p>
+
 
               <span className="right-container-arrow"></span>
             </div>
@@ -102,7 +96,10 @@ function Skill() {
             <p className='topic heading' >Servelt</p>
 
 
-            <p className="skill-desc">Experienced in Java Servlets for building dynamic, server-side web applications. Skilled in handling HTTP requests and responses, managing session data, and integrating servlets with front-end components to create interactive, robust web solutions.</p>
+            <p className="skill-desc">
+  Proficient in Java Servlets for dynamic web applications, managing HTTP requests, session data, and integrating with front-end components.
+</p>
+
 
               <span className="left-container-arrow"></span>
             </div>
