@@ -86,7 +86,7 @@
   font-size: 24px;
 }
 
-button {
+.cv {
   margin-top: 15px;
   padding: 10px 20px;
   
@@ -98,8 +98,8 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #45a049;
+.cv:hover {
+  background-color: #edc7c7;
 }
 
 .details p:nth-child(1),
@@ -112,14 +112,14 @@ button:hover {
 }
 .details p:nth-child(2){
   color: black;
-  font-weight: 900;
-  font-size: 2rem;
+  font-weight: 1000;
+  font-size: 2.2rem;
 }
 .details button{
   border: 2px solid black;
   border-radius: 50px;
   padding: 15px;
-  font-size: 15px;
+  font-size: 17px;
   margin-top: 15px;
 }
 .contact-icon {
@@ -138,17 +138,21 @@ button:hover {
 }
 
 .contact-icon a:hover {
-  color: #4caf50;
+  color: #f18e8e;
 }
 
 @media (max-width: 1000px) {
   .body{
     flex-direction: column;
+    
   }
   .contact-icon a {
       font-size: 20px;
   }
   .about-body{
     flex-wrap: wrap;
+  }
+  .about-body{
+    margin-top: 50px;
   }
 }

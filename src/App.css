@@ -2,6 +2,15 @@
 
 body{
 
-    background-color: #C9E6F0;
-  
+    /* background-color: #C9E6F0; */
+
+   
+    background: linear-gradient(180deg, rgba(120,179,194,1) 0%, rgba(237,199,199,1) 55%);
+
+
+
+
+
+
+
 }

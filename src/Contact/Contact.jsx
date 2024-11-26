@@ -3,7 +3,7 @@ import './Contact.css'
 
 function Contact() {
   return (
-    <div className='body'>
+    <div id='contact' className='body'>
       <p className='label heading'>Get In Touch</p>
       <p className=' heading topic ' >Contact Us</p>
         <div className="contact-container">
@@ -17,7 +17,7 @@ function Contact() {
                 <input type="text" name='name' placeholder='enter your name' className='contact-input' required />
                 <input type="email" name='email' placeholder='enter your email' className='contact-input' required />
                 <textarea name="message" placeholder='your message' className='contact-input' required ></textarea>
-                <button type='submit' >Sumbit</button>
+                <button type='submit' className='sumbit-btn' >Sumbit</button>
                
             </form>
           

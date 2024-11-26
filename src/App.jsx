@@ -33,11 +33,11 @@ function App() {
         </>
       } />
       
-      <Route path="/aboutme" element={<Aboutme />} />
+      {/* <Route path="/aboutme" element={<Aboutme />} />
         
         <Route path="/project" element={<Project />} />
         <Route path="/skill" element={<Skill />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} /> */}
     </Routes>
 
   </BrowserRouter>

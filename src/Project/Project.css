@@ -3,12 +3,12 @@
 
 .project {
   display: flex;
-  align-items: flex-start; 
+  align-items: stretch; /* Stretch children to make all containers the same height */
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
-  height: auto; 
+  height: auto;
 }
 
 .project-main {
@@ -21,21 +21,16 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   padding: 28px;
-  /* gap: 20px; */
   filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  max-width: 400px; 
+  max-width: 400px;
   margin: 10px;
+  height: 500px; /* Set fixed height to make all divs the same size */
 }
-
-/* .project-wrapper {
-  min-height: 60vh;
-  margin-bottom: 20px;
-} */
 
 .banner-image {
   background-position: center;
@@ -69,19 +64,19 @@
   color: #fff;
   font-family: 'Lato', sans-serif;
   text-align: center;
-  font-size: 0.8rem; /* Adjust font size */
+  font-size: 0.8rem;
   text-transform: uppercase;
 }
 
 .button-wrapper {
   margin-top: 18px;
   display: flex;
-  gap: 10px; /* Adjust gap for button spacing */
+  gap: 10px;
 }
 
 .btn {
   border: none;
-  padding: 12px 24px;
+  padding: 6px 24px;
   border-radius: 24px;
   font-size: 0.8rem;
   letter-spacing: 2px;
@@ -99,7 +94,6 @@
 .outline {
   background: transparent;
   color: rgba(0, 212, 255, 0.9);
-  border: 1px solid rgba(0, 212, 255, 0.6);
   transition: all 0.3s ease;
 }
 
@@ -107,20 +101,18 @@
   transform: scale(1.125);
   color: rgba(255, 255, 255, 0.9);
   border-color: rgba(255, 255, 255, 0.9);
-  transition: all 0.3s ease;
 }
 
 .fill {
-  background: rgba(0, 212, 255, 0.9);
+  background:#f18e8e;
   color: rgba(255, 255, 255, 0.95);
-  font-weight: bold;
+  font-weight: 400;
   transition: all 0.3s ease;
 }
 
 .fill:hover {
   transform: scale(1.125);
   filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
-  transition: all 0.3s ease;
 }
 
 @media (max-width: 1000px) {
@@ -134,5 +126,6 @@
   .project-container {
     max-width: 100%;
     padding: 20px;
+    height: 500px; /* Adjust height on smaller screens */
   }
 }

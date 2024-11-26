@@ -27,7 +27,7 @@ function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>Download CV</button>
+          <button className="cv">Download CV</button>
         </a>
 
         <div className="contact-icon">

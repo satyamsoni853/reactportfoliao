@@ -60,7 +60,10 @@
 }
 .text-box {
   padding: 20px 30px;
-  background: #B0E0E6 ;
+  background-color: rgba(240, 248, 255, 0.8);
+  /* background: #f1bdbd ; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* background: #B0E0E6 ; */
   position: relative;
   border-radius: 25px;
   font-size: 15px;

@@ -1,41 +1,43 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.education-main{
+
+.education-main {
     color: black;
 }
-.education{
-    margin-top: 50px;
-    
-}
-.education p:nth-child(3){
-    text-align: center;
-    
-}
-.education-desc{
 
-    
+.education {
+    margin-top: 50px;
+}
+
+.education p:nth-child(3) {
+    text-align: center;
+}
+
+.education-desc {
     margin: 50px 0px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+}
+.education-type{
+    font-weight: 1000;
+    font-size: 1.7rem;
+
     
 }
-.school ,.collage, .training p{
-    /* color: black; */
+
+.school, .college, .training p { 
     font-size: 1.5rem;
-
 }
 
-
-.education-type p:nth-child(2){
+.education-type p:nth-child(2) {
     color: white;
 }
-.school ,.collage, .training{
-    
+
+.school, .college, .training {  /* Changed 'collage' to 'college' */
     text-align: center;
     height: 45vh;
     width: 40vw;
@@ -45,62 +47,57 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-.collage img{
-    
-    height: 50px;
-    width: 50px;
-    
-}
-.school img{
-    height: 50px;
-    width: 50px;
-    
+    box-shadow: 0 4px 8px rgba(208, 206, 206, 0.5); 
 }
 
+.college img {  /* Changed 'collage' to 'college' */
+    height: 50px;
+    width: 50px;
+}
+
+.school img {
+    height: 50px;
+    width: 50px;
+}
 
 .training-container {
     display: flex;
     justify-content: center;
-    align-items: center;  
-  }
+    align-items: center;
+}
 
-
-.education p:last-child{
+.education p:last-child {
     padding: 20px 30px;
 }
+
 @media (max-width:1000px) {
     .training {
         width: 80%; 
         height: auto; 
         padding: 15px;
-      }
-    .education-desc{
+    }
+
+    .education-desc {
         margin: 0px 0px;
         display: flex;
         align-items: center;
-       
         flex-direction: column;
-        
-        
     }
-    .school ,.collage{
+
+    .school, .college {  /* Changed 'collage' to 'college' */
         text-align: center;
         height: auto;
         width: auto;
         overflow: hidden;
         margin: 20px 0px;
-        
     }
-    .education{
-        margin: 20px  0px;
+
+    .education {
+        margin: 20px 0px;
     }
-    .school ,.collage, .training{
-    
-        
+
+    .school, .college, .training {  /* Changed 'collage' to 'college' */
         height: auto;
         width: 100%;
-        
     }
-    
 }

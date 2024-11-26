@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { IoCloseSharp } from "react-icons/io5";
+import { Link } from 'react-scroll'; // Ensure you import Link from 'react-scroll'
 import "./Navbarr.css";
-import { Link } from "react-router-dom";
 
 function Navbarr() {
   const [showsidebarr, Setshowsidebarr] = useState(true);
@@ -10,43 +10,60 @@ function Navbarr() {
   const toggle = () => {
     Setshowsidebarr(!showsidebarr);
   };
+
   return (
     <div className="navbarr">
       <div className="sidebarr">
         <ul>
           <li>Satyam Soni</li>
           <li>
-            <Link to="/aboutme">About me</Link>
+            {/* Use Link from react-scroll for smooth scrolling */}
+            <Link to="aboutme" smooth={true} duration={500}>
+              About me
+            </Link>
           </li>
           <li>
-            <Link to="/project">Project</Link>
+            <Link to="project" smooth={true} duration={500}>
+              Project
+            </Link>
           </li>
           <li>
-            <Link to="/skill">My Skill</Link>
+            <Link to="skill" smooth={true} duration={500}>
+              My Skill
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact me</Link>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact me
+            </Link>
           </li>
 
           <li className="rbarrr" onClick={toggle}>
-            {" "}
-            {showsidebarr ? <CiMenuBurger /> : <IoCloseSharp />}{" "}
+            {showsidebarr ? <CiMenuBurger /> : <IoCloseSharp />}
           </li>
         </ul>
       </div>
       {showsidebarr ? null : (
         <ul className="closebarr">
           <li>
-            <Link to="/aboutme">About me</Link>
+            <Link to="aboutme" smooth={true} duration={500}>
+              About me
+            </Link>
           </li>
           <li>
-            <Link to="/project">Project</Link>
+            <Link to="project" smooth={true} duration={500}>
+              Project
+            </Link>
           </li>
           <li>
-            <Link to="/skill">My Skill</Link>
+            <Link to="skill" smooth={true} duration={500}>
+              My Skill
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact me</Link>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact me
+            </Link>
           </li>
         </ul>
       )}
