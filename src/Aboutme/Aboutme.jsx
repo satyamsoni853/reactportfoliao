@@ -24,7 +24,7 @@ function Aboutme() {
           className="aboutme-desc"
         >
           <p class="cursor typewriter-animation text-2xl font-bold">Hi i'm Satyam Soni </p>
-          <p className="text-2xl font-bold mr-10 " >
+          <p className="text-2xl font-bold mr-11 " >
             I'm a dedicated Computer Science student specializing in Java Full
             Stack Web Development. With hands-on experience in web technologies
             such as HTML, CSS, JavaScript, React JS, and Java, I have built a
