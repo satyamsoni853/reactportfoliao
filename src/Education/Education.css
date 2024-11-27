@@ -37,7 +37,7 @@
     color: white;
 }
 
-.school, .college, .training {  /* Changed 'collage' to 'college' */
+.school, .college, .training {  
     text-align: center;
     height: 45vh;
     width: 40vw;
@@ -50,7 +50,7 @@
     box-shadow: 0 4px 8px rgba(208, 206, 206, 0.5); 
 }
 
-.college img {  /* Changed 'collage' to 'college' */
+.college img {
     height: 50px;
     width: 50px;
 }
@@ -84,7 +84,7 @@
         flex-direction: column;
     }
 
-    .school, .college {  /* Changed 'collage' to 'college' */
+    .school, .college {  
         text-align: center;
         height: auto;
         width: auto;
@@ -96,7 +96,7 @@
         margin: 20px 0px;
     }
 
-    .school, .college, .training {  /* Changed 'collage' to 'college' */
+    .school, .college, .training { 
         height: auto;
         width: 100%;
     }

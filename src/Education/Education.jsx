@@ -19,7 +19,7 @@ function Education() { 'Education'
             className="college"  
           >
             <img src={clgimg} alt="" />
-            <p className="education-type">College</p>  {/* Changed 'Collage' to 'College' */}
+            <p className="education-type">College</p> 
             <p>
               Kamla Nehru Institute Of Physical And Social <br /> Sciences, Sultanpur, UP
             </p>
@@ -38,13 +38,13 @@ function Education() { 'Education'
             <p>
               10th:{" "}
               <span>
-                Maharishi Vidhya Mandir Sultanpur <br /> (CBSE board) {/* Corrected 'borad' to 'board' */}
+                Maharishi Vidhya Mandir Sultanpur <br /> (CBSE board) 
               </span>{" "}
             </p>
             <p>
               12th:{" "}
               <span>
-                Sangam Modern Inter College Prayagraj <br /> (UP board) {/* Corrected 'borad' to 'board' */}
+                Sangam Modern Inter College Prayagraj <br /> (UP board) 
               </span>{" "}
             </p>
           </motion.div>
@@ -58,7 +58,7 @@ function Education() { 'Education'
           className="training"
         >
           <p>
-            <FaCode />
+            <FaCode className="text-4xl" />
           </p>
           <p className="education-type">Training</p>
           <p>
@@ -75,4 +75,4 @@ function Education() { 'Education'
   );
 }
 
-export default Education;  // Corrected to 'Education' to match the function name
+export default Education; 

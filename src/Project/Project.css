@@ -3,7 +3,7 @@
 
 .project {
   display: flex;
-  align-items: stretch; /* Stretch children to make all containers the same height */
+  align-items: stretch;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
@@ -126,6 +126,6 @@
   .project-container {
     max-width: 100%;
     padding: 20px;
-    height: 500px; /* Adjust height on smaller screens */
+    height: 550px; /* Adjust height on smaller screens */
   }
 }
