@@ -4,6 +4,9 @@ import { motion } from "framer-motion";
 import porimg from './p.png'; // Assuming these images exist in your project
 import wimg from './w.png';
 import bmiimg from './bmi.png';
+import Pgimg from './pg.png'
+import Todoimg from './todo.png'
+import Calcimg from './calc.png'
 
 function Project() {
   return (
@@ -82,6 +85,78 @@ function Project() {
             </button>
             <button className="btn fill">
               <a href="https://bmi-new-sable.vercel.app/">Live Demo</a>
+            </button>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, translateX: "-100%" }}
+          whileInView={{ opacity: 1, translateX: 0 }}
+          transition={{ duration: 0.5 }}
+          className="project-container"
+        >
+          <div className="project-wrapper">
+            <div
+              className="banner-image-1 banner-image"
+              style={{ backgroundImage: `url(${Todoimg})` }} // Setting background image
+            ></div>
+            <h1>Todo List</h1>
+            <p>
+            Created a To-Do List app using HTML, CSS, and JavaScript for task management
+            </p>
+          </div>
+          <div className="button-wrapper">
+            <button className="btn outline">
+              <a href="https://github.com/satyamsoni853/Todo-list">Github</a>
+            </button>
+            <button className="btn fill">
+              <a href="https://crazytodolist.netlify.app/">Live Demo</a>
+            </button>
+          </div>
+        </motion.div>
+
+        <div className="project-container">
+          <div className="project-wrapper">
+            <div
+              className="banner-image-2 banner-image"
+              style={{ backgroundImage: `url(${Pgimg})` }} // Setting background image
+            ></div>
+            <h1>Password Generator </h1>
+            <p>
+            Developed a Password Generator using HTML, CSS, and JavaScript for secure password creation."
+            </p>
+          </div>
+          <div className="button-wrapper">
+            <button className="btn outline">
+              <a href="https://github.com/satyamsoni853/PG">Github</a>
+            </button>
+            <button className="btn fill">
+              <a href="https://pg-git-main-satyam-sonis-projects.vercel.app/">Live Demo</a>
+            </button>
+          </div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="project-container"
+        >
+          <div className="project-wrapper">
+            <div
+              className="banner-image-3 banner-image"
+              style={{ backgroundImage: `url(${Calcimg})` }} // Setting background image
+            ></div>
+            <h1> Calculator</h1>
+            <p>
+            Created a calculator using HTML, CSS, and JavaScript for basic arithmetic operations.
+            </p>
+          </div>
+          <div className="button-wrapper">
+            <button className="btn outline">
+              <a href="https://github.com/satyamsoni853/calc">Github</a>
+            </button>
+            <button className="btn fill">
+              <a href="https://calc-ten-chi.vercel.app/">Live Demo</a>
             </button>
           </div>
         </motion.div>
