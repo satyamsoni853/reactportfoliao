@@ -46,7 +46,7 @@ function Skill() {
           <div className="container left-container">
             <img src={jsimg} alt="JavaScript" />
             <div className="text-box">
-              <p className="topic heading topic-know">JavaScript</p>
+              <p className="topic heading topic-know">Java Script</p>
               <p className="skill-desc">
                 Building interactive web applications with JavaScript, using modern frameworks for efficient, engaging user experiences.
               </p>
