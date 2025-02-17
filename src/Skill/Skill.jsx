@@ -112,7 +112,7 @@ function Skill() {
           <div className="container left-container">
             <img src={microserviceimg} alt="Microservices" />
             <div className="text-box">
-              <p className="topic heading topic-know">Microservices</p>
+              <p className="topic heading topic-know">Micro services</p>
               <p className="skill-desc">
                 Designing scalable, distributed systems with Microservices, ensuring modular, maintainable architectures using Spring Boot and RESTful APIs.
               </p>
@@ -156,7 +156,7 @@ function Skill() {
           <div className="container left-container">
             <img src={bootstrapimg} alt="Bootstrap" />
             <div className="text-box">
-              <p className="topic heading topic-know">Bootstrap</p>
+              <p className="topic heading topic-know">Boot strap</p>
               <p className="skill-desc">
                 Using Bootstrap to create responsive, mobile-first designs with ease, harnessing its powerful grid system, prebuilt components, and extensive customization options for efficient, scalable UIs.
               </p>
