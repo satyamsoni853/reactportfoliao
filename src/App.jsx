@@ -9,6 +9,7 @@ import Project from './Project/Project'
 import Aboutme from './Aboutme/Aboutme'
 import Certification from './Certification/Certification'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Experience from './Experiance/Experiance'
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
           <About />
           <Aboutme />
           <Education />
+          <Experience/>
           <Project />
           <Skill />
           <Certification/>
