@@ -16,7 +16,7 @@ function Experience() {
         <div className="experience-item">
           <div>
             <h3 className="Experiance-heading" >JSpiders - Training</h3>
-            <br /><br />
+     
             <p className="experience-text">
             Currently undergoing intensive training in Java Full Stack Web 
             Development, covering Java, SQL, Web Technologies, and React. 
@@ -43,7 +43,7 @@ function Experience() {
           </motion.div>
           <div>
             <h3 className="Experiance-heading" >Apex Planet - Intern</h3>
-            <br /><br />
+          
             <p className="experience-text">
             Completed a virtual internship In Apex Planet Software Pvt.Ltd focused on HTML, CSS, and JavaScript. 
             Worked on designing responsive web layouts, optimizing UI components, 

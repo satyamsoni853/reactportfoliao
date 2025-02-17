@@ -62,7 +62,7 @@ li{
   align-items: end;
   
   position: absolute;
-  top: 16vh;
+  top: 10vh;
   right: 10px;
   display: flex;
   flex-direction: column;

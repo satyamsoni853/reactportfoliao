@@ -1,71 +1,88 @@
-.experience-img {
-  height: 50vh;
-  width: 50vw;
-  border-radius: 30px;
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
+.experience-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 10%;
+
+}
+
+/* Headings */
+.heading {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.2rem;
+  font-weight: 600;
+  /* margin-bottom: 20px; */
+}
+
+.label {
+  font-size: 1.2rem;
+  color: #555;
+  font-weight: 400;
+}
+
+/* Experience Section */
+.experience-details {
+  width: 100%;
+  /* max-width: 1000px; */
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Individual Experience Items */
 .experience-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 100px;
-  margin: 50px 50px;
+  gap: 20px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Experience Text */
 .experience-text {
-  width: 45vw;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  max-width: 500px;
 }
 
-.Experiance-heading{
-  font-size: 1.7rem;
-  border-bottom: 2px solid grey; /* Adjust the width (3px in this case) */
-  padding-bottom: 5px; /* Adds spacing between text and border */
-  width: fit-content; /* Ensures the border only spans the text width */
+/* Experience Image */
+.experience-img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 1024px) {
-  .Experiance-heading{
-    font-size: 1.2rem;
-    border-bottom: 2px solid grey; /* Adjust the width (3px in this case) */
-    padding-bottom: 3px; /* Adds spacing between text and border */
-    width: fit-content; /* Ensures the border only spans the text width */
-  }
+.experience-img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .experience-item {
-    flex-wrap: wrap;
-    margin: 0px;
-    justify-content: center;
-  }
-  
-  .experience-img {
-    width: 80vw; /* Adjust image width for smaller screens */
-    height: auto; /* Maintain aspect ratio */
-    margin: 20px 0px;
-  }
-
-  .experience-text {
-    width: 80vw; /* Adjust text width for smaller screens */
-    margin-top: 20px; /* Add space between text and image */
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .experience-item h3 {
-    font-size: 1.2rem;
-    border-bottom: 2px solid grey; /* Adjust the width (3px in this case) */
-    padding-bottom: 3px; /* Adds spacing between text and border */
-    width: fit-content; /* Ensures the border only spans the text width */
-  }
-
-  .experience-text {
-    width: 80vw; /* Adjust text width for smaller screens */
-    margin-top: 20px; /* Add space between text and image */
-    font-size: 1rem;
+    flex-direction: column;
+    text-align: center;
   }
 
   .experience-img {
-    width: 90vw; /* Further adjust image width */
-    margin: 20px 0px;
+    width: 400px;
+    height: 400px;
   }
 }
