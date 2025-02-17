@@ -9,6 +9,7 @@
   
 }
 
+
 .timeline {
   position: relative;
   max-width: 1200px;
@@ -57,6 +58,18 @@
 }
 .container:nth-child(9) {
   animation-delay: 8s;
+}
+.container:nth-child(10) {
+  animation-delay: 9s;
+}
+.container:nth-child(11) {
+  animation-delay: 10s;
+}
+.container:nth-child(12) {
+  animation-delay: 11s;
+}
+.container:nth-child(13) {
+  animation-delay: 12s;
 }
 .text-box {
   padding: 20px 30px;

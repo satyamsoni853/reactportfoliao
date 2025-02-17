@@ -51,7 +51,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .Experiance-heading{
+  .experience-item h3 {
     font-size: 1.2rem;
     border-bottom: 2px solid grey; /* Adjust the width (3px in this case) */
     padding-bottom: 3px; /* Adds spacing between text and border */
