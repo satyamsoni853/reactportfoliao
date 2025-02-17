@@ -42,7 +42,7 @@ function Experience() {
             <img src={Apeximg} alt="Apex Planet" className="experience-img" />
           </motion.div>
           <div>
-            <h3>Apex Planet - Web Development Intern</h3>
+            <h3>Apex Planet-Web Development Intern</h3>
             <br /><br />
             <p className="experience-text">
             Completed a virtual internship In Apex Planet Software Pvt.Ltd focused on HTML, CSS, and JavaScript. 
