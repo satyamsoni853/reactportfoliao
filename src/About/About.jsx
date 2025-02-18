@@ -23,7 +23,7 @@ function About() {
         <p>Satyam Soni</p>
         <p>Java Full Stack Web Developer</p>
         <a
-          href="https://drive.google.com/file/d/1YtweN-v1B3p-Y7LmmDbAmhpbt6Thd-hk/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1ZZ5a5H5OGm14-k9MgX07GfYhYCi-MsBx/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >

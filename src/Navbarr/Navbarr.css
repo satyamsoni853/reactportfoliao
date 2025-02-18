@@ -59,7 +59,7 @@ li{
 
 .closebarr {
   width: 100%;
-  align-items: center;
+  align-items: end;
   position: absolute;
   top: 12vh;
   right: 10px;
@@ -70,8 +70,7 @@ li{
   border-radius: 20px;
   text-align: start;
   z-index: 1000;
-  border: 2px solid black; /* Existing border */
-  border-bottom: 4px solid black; /* Border at the bottom */
+  border-bottom: 3px solid black; /* Border at the bottom */
 }
 
 
