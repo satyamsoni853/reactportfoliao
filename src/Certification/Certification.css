@@ -7,25 +7,25 @@
 }
 
 .certification__container {
-    height: 450px; /* Adjusted to match card height */
+    height: 400px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     justify-content: start;
-    gap: 15px; /* Added spacing */
+   
 }
 
 .card {
     width: 80px;
-    height: 450px;
-    border-radius: 10px; /* Slightly more rounded */
+    height: 450px; /* Set a consistent height for cards */
+    border-radius: 0.75rem;
     background-size: cover;
     cursor: pointer;
     overflow: hidden;
     margin: 0 10px;
     display: flex;
     align-items: flex-end;
-    transition: 0.5s ease-in-out; /* Smoother transition */
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
 }
 
 .card > .row > .description {
@@ -37,7 +37,7 @@
     width: 520px;
     opacity: 0;
     transform: translateY(30px);
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    transition-delay: 0.3s;
 }
 
 .description p {
@@ -55,7 +55,6 @@
 
 input:checked + label {
     width: 600px;
-    max-width: 90vw; /* Prevents overflow on small screens */
 }
 
 input:checked + label .description {
@@ -98,6 +97,7 @@ input:checked + label .description {
     background-image: url(./img6.jpg);
 }
 
+
 .title-centre {
     text-align: center;
     text-transform: uppercase;
@@ -108,17 +108,16 @@ input:checked + label .description {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-    .certification__container {
+    .certification-section {
         display: none;
     }
 
     .card {
-       display: none;
+        width: 100%; /* Full-width cards for smaller screens */
     }
 
     input:checked + label {
-        display: none;
+        width: 100%; /* Full-width expanded card for smaller screens */
     }
 }
