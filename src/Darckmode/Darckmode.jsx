@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { MdDarkMode } from "react-icons/md";
-import "./Darkmode.css"
+import "./Darkmode.css";
 
 function Darkmode() {
   const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem("theme") === "dark";
+    // Default to dark mode if no theme is set
+    return localStorage.getItem("theme") !== "light";
   });
 
   useEffect(() => {

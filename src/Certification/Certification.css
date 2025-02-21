@@ -111,17 +111,14 @@ input:checked + label .description {
 /* Responsive Design */
 @media (max-width: 768px) {
     .certification__container {
-        flex-direction: column;
-        align-items: center;
+        display: none;
     }
 
     .card {
-        width: 100%;
-        height: auto;
-        min-height: 250px;
+       display: none;
     }
 
     input:checked + label {
-        width: 100%;
+        display: none;
     }
 }
