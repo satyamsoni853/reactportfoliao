@@ -84,12 +84,18 @@
         flex-direction: column;
         align-items: center;
         margin: 0;
+        gap: 10px; /* Reduce gap to minimize space */
     }
 
     .school, .college, .training {
-        width: 80%;
+        width: 90%; /* Adjust width to avoid extra space */
         max-width: 100%;
         height: auto;
-        margin: 20px 0;
+        margin: 10px 0; /* Reduce margin */
+        padding: 15px; /* Adjust padding for better spacing */
+    }
+
+    .training {
+        flex: unset; /* Remove extra space taken due to flex:1 */
     }
 }

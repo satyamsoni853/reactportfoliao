@@ -157,6 +157,10 @@
 
 /* Responsive Design */
 @media (max-width: 1000px) {
+  .contact-icon{
+    margin-bottom: 20px;
+
+  }
   .about-body {
     flex-wrap: wrap;
     margin-top: 80px;
