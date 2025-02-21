@@ -15,8 +15,8 @@ function Project() {
       <p className="topic heading">Projects</p>
       <div className="project">
         <motion.div
-          initial={{ opacity: 0, translateX: "-100%" }}
-          whileInView={{ opacity: 1, translateX: 0 }}
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="project-container"
         >
@@ -89,9 +89,9 @@ function Project() {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, translateX: "-100%" }}
-          whileInView={{ opacity: 1, translateX: 0 }}
-          transition={{ duration: 0.5 }}
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
           className="project-container"
         >
           <div className="project-wrapper">

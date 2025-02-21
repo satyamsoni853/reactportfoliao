@@ -12,15 +12,15 @@ function Aboutme() {
         <motion.div
           initial={{ opacity: 0, translateY: "-100%" }}
           whileInView={{ opacity: 1, translateY: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.5 }}
           className="aboutmeimg"
         >
           <img src={wtimg} alt="" />
         </motion.div>
-        <motion.div
-          initial={{ opacity: 0, translateY: "-100%" }}
-          whileInView={{ opacity: 1, translateY: 0 }}
-          transition={{ duration: 1 }}
+        <div
+          // initial={{ opacity: 0, translateY: "-100%" }}
+          // whileInView={{ opacity: 1, translateY: 0 }}
+          // transition={{ duration: 1 }}
           className="aboutme-desc"
         >
           <p className="cursor typewriter-animation text-2xl font-bold text-conversion"  id="text-conversion-for-dark-mode">Hi i'm Satyam Soni </p>
@@ -34,7 +34,7 @@ function Aboutme() {
             real-world projects. My goal is to contribute effectively to a
             dynamic team and deliver impactful solutions.
           </p>
-        </motion.div>
+        </div>
       </div>
     </div>
   );
