@@ -4,7 +4,7 @@ import './Certification.css';
 function Certification() {
   return (
     <div className="certification-section">
-     <p className='label heading'>Know My Experiance</p>
+     <p className='label heading text-conversion'  id="text-conversion-for-dark-mode">Know My Experiance</p>
       <p className="section__title title-centre topic heading ">Certification</p>
       <div className="certification__main">
         <div className="certification__container">
@@ -40,6 +40,10 @@ function Certification() {
 
           <input type="radio" name="slide" id="c7" />
           <label htmlFor="c7" className="card">
+           
+          </label>
+          <input type="radio" name="slide" id="c8" />
+          <label htmlFor="c8" className="card">
            
           </label>
         </div>

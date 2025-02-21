@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function Aboutme() {
   return (
     <div className="aboutme">
-      <p className="label heading ">Know About Me</p>
+      <p className="label heading text-conversion "  id="text-conversion-for-dark-mode">Know About Me</p>
       <p className="topic heading ">About Me</p>
       <div className="aboutme-container">
         <motion.div
@@ -23,7 +23,7 @@ function Aboutme() {
           transition={{ duration: 1 }}
           className="aboutme-desc"
         >
-          <p class="cursor typewriter-animation text-2xl font-bold">Hi i'm Satyam Soni </p>
+          <p className="cursor typewriter-animation text-2xl font-bold text-conversion"  id="text-conversion-for-dark-mode">Hi i'm Satyam Soni </p>
           <p className="text-2xl font-bold mr-11 " >
             I'm a dedicated Computer Science student specializing in Java Full
             Stack Web Development. With hands-on experience in web technologies

@@ -1,197 +1,184 @@
+/* General Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.skill-desc{
-  color: grey;
-  font-size: 1rem;
-  
+
+/* Root Variables */
+:root {
+  --primary-text: black;
+  --secondary-text: grey;
+  --text-box-bg-light: rgba(240, 248, 255, 0.8);
+  --text-box-bg-dark: black;
+  --timeline-color: black;
+  --shadow-light: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Dark Mode */
+.dark-mode {
+  --primary-text: white;
+  --text-box-bg-light: black;
+  --timeline-color: white;
+}
 
+/* Skill Description */
+.skill-desc {
+  color: var(--secondary-text);
+  font-size: 1rem;
+}
+
+/* Timeline Layout */
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 100px auto;
 }
-.container {
-  padding: 10px 50px;
-  position: relative;
-  width: 50%;
-  animation: movedown 1s linear forwards;
-  opacity: 0;
-}
-@keyframes movedown {
-  0% {
-    opacity: 1;
-    transform: translateY(-30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-.container:nth-child(1) {
-  animation-delay: 0s;
-}
-.container:nth-child(2) {
-  animation-delay: 1s;
-}
-.container:nth-child(3) {
-  animation-delay: 2s;
-}
-.container:nth-child(4) {
-  animation-delay: 3s;
-}
-.container:nth-child(5) {
-  animation-delay: 4s;
-}
-.container:nth-child(6) {
-  animation-delay: 5s;
-}
-.container:nth-child(7) {
-  animation-delay: 6s;
-}
-.container:nth-child(8) {
-  animation-delay: 7s;
-}
-.container:nth-child(9) {
-  animation-delay: 8s;
-}
-.container:nth-child(10) {
-  animation-delay: 9s;
-}
-.container:nth-child(11) {
-  animation-delay: 10s;
-}
-.container:nth-child(12) {
-  animation-delay: 11s;
-}
-.container:nth-child(13) {
-  animation-delay: 12s;
-}
-.text-box {
-  padding: 20px 30px;
-  background-color: rgba(240, 248, 255, 0.8);
-  /* background: #f1bdbd ; */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* background: #B0E0E6 ; */
-  position: relative;
-  border-radius: 25px;
-  font-size: 15px;
-}
-.left-container {
-  left: 0;
-}
-.left-container img{
-  z-index: 20;
-}
-.right-container {
-  left: 50%;
-}
-.container img {
-  position: absolute;
-  width: 40px;
-  border-radius: 50%;
-  right: -20px;
-  top: 32px;
-  z-index: 10;
-}
-.right-container img {
-  left: -20px;
-}
+
 .timeline::after {
   content: "";
   position: absolute;
   width: 6px;
   height: 100%;
-
-  background: black;
+  background: var(--timeline-color);
   top: 0;
   left: 50%;
   margin-left: -3px;
   z-index: -1;
-  animation: moveline 6s linear forwards;
-}
-@keyframes moveline {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 100%;
-  }
+  animation: moveline 4s linear forwards;
 }
 
-.text-box h2 {
-  font-weight: 600;
+/* Timeline Animation */
+@keyframes moveline {
+  from { height: 0; }
+  to { height: 100%; }
 }
-.left-container-arrow {
+
+/* Container Styling */
+.container {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  animation: movedown 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.container:nth-child(n) {
+  animation-delay: calc(n * 0.5s);
+}
+
+/* Smooth Entry Animation */
+@keyframes movedown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Left & Right Containers */
+.left-container { left: 0; }
+.right-container { left: 50%; }
+
+.left-container img, .right-container img {
+  position: absolute;
+  width: 40px;
+  border-radius: 50%;
+  top: 32px;
+  z-index: 10;
+}
+
+.left-container img { right: -20px; }
+.right-container img { left: -20px; }
+
+/* Text Box */
+.text-box {
+  padding: 20px 30px;
+  background-color: var(--text-box-bg-light);
+  box-shadow: var(--shadow-light);
+  position: relative;
+  border-radius: 25px;
+  font-size: 15px;
+  color: var(--primary-text);
+}
+
+.dark-mode .text-box {
+  background-color: var(--text-box-bg-dark);
+  color: white;
+}
+
+/* Heading */
+.heading {
+  color: var(--primary-text);
+  text-align: center;
+  font-size: 2rem;
+  animation: slideDown 2s forwards;
+}
+
+/* Arrow Design */
+.left-container-arrow, .right-container-arrow {
   height: 0;
   width: 0;
   position: absolute;
   top: 28px;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid black;
+}
+
+.left-container-arrow {
+  border-left: 15px solid var(--text-box-bg-light);
   right: -15px;
 }
+
 .right-container-arrow {
-  height: 0;
-  width: 0;
-  position: absolute;
-  top: 28px;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-right: 15px solid black;
+  border-right: 15px solid var(--text-box-bg-light);
   left: -15px;
 }
 
+/* Dark Mode Adjustments for Arrows */
+.dark-mode .left-container-arrow {
+  border-left: 15px solid var(--text-box-bg-dark);
+}
+
+.dark-mode .right-container-arrow {
+  border-right: 15px solid var(--text-box-bg-dark);
+}
+
+/* Responsive Design */
 @media (max-width: 600px) {
-  .timeline {
-    margin: 50px auto;
-  }
-  .timeline::after {
-    left: 31px;
-  }
+  .timeline { margin: 50px auto; }
+  .timeline::after { left: 31px; }
+
   .container {
     width: 100%;
     padding-left: 80px;
     padding-right: 25px;
   }
+
   .text-box {
     font-size: 13px;
   }
+
   .text-box small {
     margin-bottom: 10px;
   }
-  .right-container {
-    left: 0;
-  }
-  .left-container-arrow,
-  .right-container-arrow {
-    border-right: 10px solid #fff;
+
+  .right-container { left: 0; }
+
+  .left-container-arrow, .right-container-arrow {
+    border-right: 10px solid var(--text-box-bg-light);
     border-left: 0;
     left: -15px;
   }
-  .left-container img,
-  .right-container img {
+
+  .dark-mode .left-container-arrow, .dark-mode .right-container-arrow {
+    border-right: 10px solid var(--text-box-bg-dark);
+  }
+
+  .left-container img, .right-container img {
     left: 10px;
   }
 }
-.heading {
-  color: black;
-  text-align: center;
-  font-size: 2rem;
-  animation: slideDown 2s forwards;
-}
+
+/* Heading Animation */
 @keyframes slideDown {
-  0% {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }

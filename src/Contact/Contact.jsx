@@ -4,7 +4,7 @@ import './Contact.css'
 function Contact() {
   return (
     <div id='contact' className='body'>
-      <p className='label heading'>Get In Touch</p>
+      <p className='label heading text-conversion'  id="text-conversion-for-dark-mode">Get In Touch</p>
       <p className=' heading topic ' >Contact Us</p>
         <div className="contact-container">
           

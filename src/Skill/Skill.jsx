@@ -17,7 +17,7 @@ import springbootimg from "./SpringBootimage.webp";
 function Skill() {
   return (
     <div id="skill">
-      <p className="label heading">Browse My Recent</p>
+      <p className="label heading text-conversion"  id="text-conversion-for-dark-mode">Browse My Recent</p>
       <p className="heading topic">My Skill</p>
       <div className="body">
         <div className="timeline">

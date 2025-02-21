@@ -10,6 +10,7 @@ import Aboutme from './Aboutme/Aboutme'
 import Certification from './Certification/Certification'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Experience from './Experiance/Experiance'
+import Darckmode from './Darckmode/Darckmode'
 
 function App() {
   
@@ -31,6 +32,7 @@ function App() {
           <Skill />
           <Certification/>
           <Contact />
+          <Darckmode/>
           <Footer />
         </>
       } />

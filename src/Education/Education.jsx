@@ -1,55 +1,52 @@
-import React from "react";
+import React from "react"; 
 import "./Education.css";
-import schoolimg from "./education.png";
-import clgimg from "./experience.png";
 import { motion } from "framer-motion";
-import { FaCode } from "react-icons/fa";
+import { FaCode, FaSchool } from "react-icons/fa";
+import { IoSchoolOutline } from "react-icons/io5";
 
-function Education() { 'Education'
+function Education() {
   return (
     <div className="education-main">
       <div className="education">
-        <p className="label heading">Get To Know More</p>
+        <p className="label heading text-conversion"  id="text-conversion-for-dark-mode">Get To Know More</p>
         <p className="topic heading">Education</p>
         <div className="education-desc">
           <motion.div
             initial={{ opacity: 0, translateX: "-100%" }}
             whileInView={{ opacity: 1, translateX: 0 }}
             transition={{ duration: 0.5 }}
-            className="college"  
+            className="college"
           >
-            <img src={clgimg} alt="" />
+            
+            <FaSchool className="text-blue-500 text-2xl icon-style  hover:text-yellow-500" />
             <p className="education-type">College</p> 
             <p>
               Kamla Nehru Institute Of Physical And Social <br /> Sciences, Sultanpur, UP
             </p>
             <p>
-              Btech (CSE) <br /> (2021-2025)
+              BTech (CSE) <br /> (2021-2025)
             </p>
           </motion.div>
+
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
             className="school"
           >
-            <img src={schoolimg} alt="" />
+            
+            <IoSchoolOutline className="text-green-500 text-2xl icon-style  hover:text-yellow-500" />
             <p className="education-type">School</p>
             <p>
-              10th:{" "}
-              <span>
-                Maharishi Vidhya Mandir Sultanpur <br /> (CBSE board) 
-              </span>{" "}
+              10th: <span>Maharishi Vidya Mandir, Sultanpur <br /> (CBSE Board)</span>
             </p>
             <p>
-              12th:{" "}
-              <span>
-                Sangam Modern Inter College Prayagraj <br /> (UP board) 
-              </span>{" "}
+              12th: <span>Sangam Modern Inter College, Prayagraj <br /> (UP Board)</span>
             </p>
           </motion.div>
         </div>
       </div>
+
       <div className="training-container">
         <motion.div
           initial={{ opacity: 0, translateX: "-100%" }}
@@ -57,22 +54,18 @@ function Education() { 'Education'
           transition={{ duration: 0.5 }}
           className="training"
         >
-          <p>
-            <FaCode className="text-4xl" />
-          </p>
+          
+          <FaCode className="text-red-500 text-2xl hover:text-yellow-500 icon-style" />
           <p className="education-type">Training</p>
           <p>
             Java Full Stack Web Development <br />
-            JSpider in Bengaluru
+            JSpider, Bengaluru
           </p>
-          <p>
-            April (2024)- <br />
-            Current
-          </p>
+          <p>April (2024) - Current</p>
         </motion.div>
       </div>
     </div>
   );
 }
 
-export default Education; 
+export default Education;

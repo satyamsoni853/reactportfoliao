@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+    --primary-bg: #ffffff;
+    --secondary-bg: #f0f0f0;
+    --text-color: #000;
+    --box-bg: orange;
+    --border-color: #070a1c;
+    --gradient: linear-gradient(315deg, #00ccff, #d400d4);
+  }
+  
+  .dark-mode {
+    --primary-bg: #121212;
+    --secondary-bg: #1a1a1a;
+    --text-color: #f5f5f5;
+    --box-bg: #333;
+    --border-color: #555;
+    --gradient: linear-gradient(315deg, #0d7377, #14ffec);
+  }
+  
 body{
     font-family: "Sour Gummy", serif;
 }

@@ -10,12 +10,12 @@ function Experience() {
     <div className="experience-container">
       {/* Left Section - Details */}
       <div className="experience-details">
-      <p className="label heading">Explore Recent Experince</p>
+      <p className="label heading text-conversion"  id="text-conversion-for-dark-mode">Explore Recent Experince</p>
       <p className="topic heading">Experince</p>
 
         <div className="experience-item">
           <div>
-            <h3 className="Experiance-heading" >JSpiders - Training</h3>
+            <h3 className="Experiance-heading" id="text-conversion-for-dark-mode">JSpiders - Training</h3>
      
             <p className="experience-text">
             Currently undergoing intensive training in Java Full Stack Web 
@@ -42,7 +42,7 @@ function Experience() {
             <img src={Apeximg} alt="Apex Planet" className="experience-img" />
           </motion.div>
           <div>
-            <h3 className="Experiance-heading" >Apex Planet - Intern</h3>
+            <h3 className="Experiance-heading" id="text-conversion-for-dark-mode" >Apex Planet - Intern</h3>
           
             <p className="experience-text">
             Completed a virtual internship In Apex Planet Software Pvt.Ltd focused on HTML, CSS, and JavaScript. 

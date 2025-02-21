@@ -11,7 +11,7 @@ import Calcimg from './calc.png'
 function Project() {
   return (
     <div className="project-main">
-      <p className="label heading">Explore Recent Innovations</p>
+      <p className="label heading " id="text-conversion-for-dark-mode">Explore Recent Innovations</p>
       <p className="topic heading">Projects</p>
       <div className="project">
         <motion.div
@@ -25,7 +25,7 @@ function Project() {
               className="banner-image-1 banner-image"
               style={{ backgroundImage: `url(${wimg})` }} 
             ></div>
-            <h1 className="font-extrabold" >Weather-App</h1>
+            <h1 className="font-extrabold"  id="text-conversion-for-dark-mode" >Weather-App</h1>
             <p>
               Built a weather app with ReactJS,<br /> delivering real-time weather updates.
             </p>
@@ -46,7 +46,7 @@ function Project() {
               className="banner-image-2 banner-image"
               style={{ backgroundImage: `url(${porimg})` }} // Setting background image
             ></div>
-            <h1 className="font-extrabold"  >Portfolio</h1>
+            <h1 className="font-extrabold"  id="text-conversion-for-dark-mode"  >Portfolio</h1>
             <p>
               Created a responsive portfolio website <br />
               with HTML, CSS, and  JavaScript.
@@ -73,7 +73,7 @@ function Project() {
               className="banner-image-3 banner-image"
               style={{ backgroundImage: `url(${bmiimg})` }} // Setting background image
             ></div>
-            <h1 className="font-extrabold"  >BMI Calculator</h1>
+            <h1 className="font-extrabold"  id="text-conversion-for-dark-mode"  >BMI Calculator</h1>
             <p>
               Developed a BMI calculator using JavaScript 
               health insights based on their results.
@@ -81,7 +81,7 @@ function Project() {
           </div>
           <div className="button-wrapper">
             <button className="btn outline">
-              <a href="https://github.com/satyamsoni853/bmi-new">Github</a>
+              <a href="https://github.com/satyamsoni853/bmi-new" >Github</a>
             </button>
             <button className="btn fill">
               <a href="https://bmi-new-sable.vercel.app/">Live Demo</a>
@@ -99,7 +99,7 @@ function Project() {
               className="banner-image-1 banner-image"
               style={{ backgroundImage: `url(${Todoimg})` }} // Setting background image
             ></div>
-            <h1 className="font-extrabold"  >Todo List</h1>
+            <h1 className="font-extrabold"  id="text-conversion-for-dark-mode" >Todo List</h1>
             <p>
             Created a To-Do List app using HTML, CSS, and JavaScript for task management
             </p>
@@ -120,7 +120,7 @@ function Project() {
               className="banner-image-2 banner-image"
               style={{ backgroundImage: `url(${Pgimg})` }} // Setting background image
             ></div>
-            <h1 className="font-extrabold"  >Password Generator </h1>
+            <h1 className="font-extrabold"  id="text-conversion-for-dark-mode" >Password Generator </h1>
             <p>
             Developed a Password Generator using HTML, CSS, and JavaScript for secure password creation."
             </p>
@@ -146,7 +146,7 @@ function Project() {
               className="banner-image-3 banner-image"
               style={{ backgroundImage: `url(${Calcimg})` }} // Setting background image
             ></div>
-            <h1 className="font-extrabold"  > Calculator</h1>
+            <h1 className="font-extrabold"  id="text-conversion-for-dark-mode" > Calculator</h1>
             <p>
             Created a calculator using HTML, CSS, and JavaScript for basic arithmetic operations.
             </p>
