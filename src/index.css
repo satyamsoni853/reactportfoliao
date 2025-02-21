@@ -9,7 +9,7 @@
     --text-color: #000;
     --box-bg: orange;
     --border-color: #070a1c;
-    --gradient: linear-gradient(315deg, #00ccff, #d400d4);
+    --gradient: linear-gradient(315deg, #00ccff, #f18e8e);
   }
   
   .dark-mode {

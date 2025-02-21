@@ -110,7 +110,7 @@
 }
 
 .cv:hover {
-  background-color: #edc7c7;
+  background-color: #f18e8e;
 }
 
 /* Details Text Styling */
@@ -207,5 +207,5 @@
 }
 
 .dark-mode .contact-icon a:hover {
-  color: #ff4ecb;
+  color: #f18e8e;
 }

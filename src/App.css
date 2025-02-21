@@ -22,9 +22,7 @@ body {
 }
 
 /* Apply color #FFBF00 for .text-conversion in Dark Mode */
-.dark-mode .text-conversion {
-  color: #FFBF00;
-}
+
 
 /* Apply color #f18e8e for #text-conversion-for-dark-mode in Dark Mode */
 .dark-mode #text-conversion-for-dark-mode {
