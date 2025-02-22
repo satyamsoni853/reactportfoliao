@@ -92,17 +92,30 @@
 .text-box {
   padding: 20px 30px;
   background-color: var(--text-box-bg-light);
-  box-shadow: var(--shadow-light);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
   position: relative;
   border-radius: 25px;
   font-size: 15px;
   color: var(--primary-text);
+  transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.text-box:hover {
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 1); /* Darker and bigger shadow */
+  transform: translateY(-3px); /* Slight lift effect */
 }
 
 .dark-mode .text-box {
   background-color: var(--text-box-bg-dark);
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
   color: white;
 }
+
+.dark-mode .text-box:hover {
+  box-shadow: 4px 4px 15px rgba(255, 255, 255, 1); /* Brighter shadow in dark mode */
+  transform: translateY(-3px);
+}
+
 
 /* Heading */
 .heading {
