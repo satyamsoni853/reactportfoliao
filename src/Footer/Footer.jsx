@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className='footer'  >
         <div>
-        <p>© 2014-2025  All rights reserved. </p>
+        <p>© 2022-2025  All rights reserved. </p>
         </div>
         <div className="footer-contact-icon">
           <a

@@ -17,8 +17,8 @@ import springbootimg from "./SpringBootimage.webp";
 function Skill() {
   return (
     <div id="skill">
-      <p className="label heading text-conversion"  id="text-conversion-for-dark-mode">Browse My Recent</p>
-      <p className="heading topic">My Skill</p>
+      <p className="label heading text-conversion"  id="text-conversion-for-dark-mode">What I Excel At</p>
+      <p className="heading topic">My Skills</p>
       <div className="body">
         <div className="timeline">
           <div className="container left-container">
@@ -158,7 +158,7 @@ function Skill() {
             <div className="text-box">
               <p className="topic heading topic-know">Boot strap</p>
               <p className="skill-desc">
-                Using Bootstrap to create responsive, mobile-first designs with ease, harnessing its powerful grid system, prebuilt components, and extensive customization options for efficient, scalable UIs.
+                Using Bootstrap to create responsive, mobile-first designs with ease, harnessing its powerful grid system options for efficient, scalable UIs.
               </p>
               <span className="left-container-arrow"></span>
             </div>

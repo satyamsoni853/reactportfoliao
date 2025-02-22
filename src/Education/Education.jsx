@@ -21,7 +21,7 @@ function Education() {
             <FaSchool className="text-blue-500 text-2xl icon-style  hover:text-yellow-500" />
             <p className="education-type">College</p> 
             <p>
-              Kamla Nehru Institute Of Physical And Social <br /> Sciences, Sultanpur, UP
+              Kamla Nehru Institute Of Physical And Social <br /> Sciences, Sultanpur, U.P
             </p>
             <p>
               BTech (CSE) <br /> (2021-2025)
@@ -41,7 +41,7 @@ function Education() {
               10th: <span>Maharishi Vidya Mandir, Sultanpur <br /> (CBSE Board)</span>
             </p>
             <p>
-              12th: <span>Sangam Modern Inter College, Prayagraj <br /> (UP Board)</span>
+              12th: <span>Sangam Modern Inter College, Prayagraj <br /> (U.P Board)</span>
             </p>
           </motion.div>
         </div>
@@ -59,7 +59,7 @@ function Education() {
           <p className="education-type">Training</p>
           <p>
             Java Full Stack Web Development <br />
-            JSpider, Bengaluru
+            JSpiders, Bengaluru
           </p>
           <p>April (2024) - Current</p>
         </motion.div>

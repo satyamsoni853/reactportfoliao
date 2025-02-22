@@ -27,7 +27,7 @@ function Project() {
             ></div>
             <h1 className="font-extrabold"  id="text-conversion-for-dark-mode" >Weather-App</h1>
             <p>
-              Built a weather app with ReactJS,<br /> delivering real-time weather updates.
+              Built a weather app with ReactJS,<br /> delivering real-time weather updates
             </p>
           </div>
           <div className="button-wrapper">
@@ -76,7 +76,7 @@ function Project() {
             <h1 className="font-extrabold"  id="text-conversion-for-dark-mode"  >BMI Calculator</h1>
             <p>
               Developed a BMI calculator using JavaScript 
-              health insights based on their results.
+              health insights based on their results
             </p>
           </div>
           <div className="button-wrapper">
@@ -122,7 +122,7 @@ function Project() {
             ></div>
             <h1 className="font-extrabold"  id="text-conversion-for-dark-mode" >Password Generator </h1>
             <p>
-            Developed a Password Generator using HTML, CSS, and JavaScript for secure password creation."
+            Developed a Password Generator using HTML, CSS, and JavaScript for secure password creation
             </p>
           </div>
           <div className="button-wrapper">
@@ -148,7 +148,7 @@ function Project() {
             ></div>
             <h1 className="font-extrabold"  id="text-conversion-for-dark-mode" > Calculator</h1>
             <p>
-            Created a calculator using HTML, CSS, and JavaScript for basic arithmetic operations.
+            Created a calculator using HTML, CSS, and JavaScript for basic arithmetic operations
             </p>
           </div>
           <div className="button-wrapper">

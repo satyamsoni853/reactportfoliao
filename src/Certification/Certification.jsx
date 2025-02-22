@@ -4,7 +4,7 @@ import './Certification.css';
 function Certification() {
   return (
     <div className="certification-section">
-     <p className='label heading text-conversion'  id="text-conversion-for-dark-mode">Know My Experiance</p>
+     <p className='label heading text-conversion'  id="text-conversion-for-dark-mode">Know My Experience</p>
       <p className="section__title title-centre topic heading ">Certification</p>
       <div className="certification__main">
         <div className="certification__container">

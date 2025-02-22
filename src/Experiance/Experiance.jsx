@@ -10,8 +10,8 @@ function Experience() {
     <div className="experience-container">
       {/* Left Section - Details */}
       <div className="experience-details">
-      <p className="label heading text-conversion"  id="text-conversion-for-dark-mode">Explore Recent Experince</p>
-      <p className="topic heading">Experince</p>
+      <p className="label heading text-conversion"  id="text-conversion-for-dark-mode">Explore Recent Experience</p>
+      <p className="topic heading">Experience</p>
 
         <div className="experience-item">
           <div>

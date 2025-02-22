@@ -24,17 +24,17 @@ function Navbarr() {
           </li>
           <li>
             <Link to="project" smooth={true} duration={500}>
-              Project
+              Projects
             </Link>
           </li>
           <li>
             <Link to="skill" smooth={true} duration={500}>
-              My Skill
+              My Skills
             </Link>
           </li>
           <li>
             <Link to="contact" smooth={true} duration={500}>
-              Contact me
+              Contact Me
             </Link>
           </li>
 
@@ -52,17 +52,17 @@ function Navbarr() {
           </li>
           <li>
             <Link to="project" smooth={true} duration={500}>
-              Project
+              Projects
             </Link>
           </li>
           <li>
             <Link to="skill" smooth={true} duration={500}>
-              My Skill
+              My Skills
             </Link>
           </li>
           <li>
             <Link to="contact" smooth={true} duration={500}>
-              Contact me
+              Contact Me
             </Link>
           </li>
         </ul>
