@@ -9,7 +9,6 @@ import img1 from "./img1.jpg";
 import img2 from "./img2.jpg";
 import img3 from "./img3.jpg";
 
-
 function About() {
   return (
     <div className="about-body ">
@@ -19,16 +18,29 @@ function About() {
         </div>
       </div>
       <div className="details">
-        <p  id="text-conversion-for-dark-mode">Hello I'm</p>
+        <p id="text-conversion-for-dark-mode">Hello I'm</p>
         <p>Satyam Soni</p>
-        <p  id="text-conversion-for-dark-mode" >Java Full Stack  Developer</p>
-        <a
-          href="https://drive.google.com/file/d/13CzTOTy_3VEUa987pevtA97DjqXyiPHl/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className="cv">Download CV</button>
-        </a>
+        <p id="text-conversion-for-dark-mode">Java Full Stack Developer</p>
+        <div className="flex flex-wrap gap-4 justify-center">
+          <a
+            href="https://drive.google.com/file/d/13CzTOTy_3VEUa987pevtA97DjqXyiPHl/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="px-6 py-2 text-white bg-[#333] rounded-lg hover:bg-blue-700 transition">
+              Download CV
+            </button>
+          </a>
+          <a
+            href="https://wa.me/+919696050128?text=Hello%20Satyam,%20I%20am%20interested%20in%20hiring%20you!"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="px-6 py-2 text-white bg-green-600 rounded-lg hover:bg-green-700 transition">
+              Hire Me
+            </button>
+          </a>
+        </div>
 
         <div className="contact-icon">
           <a
@@ -56,7 +68,6 @@ function About() {
             href="https://www.facebook.com/profile.php?id=100015348572224"
             target="_blank"
             rel="noopener noreferrer"
-            
           >
             <FaFacebook />
           </a>
