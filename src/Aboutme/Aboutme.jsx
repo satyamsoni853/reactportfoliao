@@ -39,12 +39,13 @@ function Aboutme() {
             Stack Web Development. With hands-on experience in web technologies
             such as HTML, CSS, JavaScript, React JS, and Java, I have built a
             solid foundation in developing functional and responsive web
-            applications. Additionally, I have knowledge of J2EE, Servlets, and
-            Hibernate, further strengthening my backend development expertise. I
-            am passionate about solving complex problems, continuously learning
-            new skills, and applying my knowledge through real-world projects.
-            My goal is to contribute effectively to a dynamic team and deliver
-            impactful solutions.
+            applications. Additionally, I have knowledge of J2EE, Servlets,
+            Hibernate, Spring Core, Spring MVC, and Spring Boot, further
+            strengthening my backend development expertise. I am passionate
+            about solving complex problems, continuously learning new skills,
+            and applying my knowledge through real-world projects. My goal is to
+            contribute effectively to a dynamic team and deliver impactful
+            solutions.
           </p>
         </div>
       </div>
