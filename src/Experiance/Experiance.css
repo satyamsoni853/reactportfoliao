@@ -22,6 +22,15 @@
   padding: 25px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect on Experience Item */
+.experience-item:hover {
+  transform: scale(1.02);
+  /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); */
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
 }
 
 /* Ensure the text section has a consistent width */
@@ -47,11 +56,10 @@
 
 /* Experience Image */
 .experience-img {
-  width: 500px;
-  height: 400px;
+  width: 450px;
+  height: 350px;
   object-fit: contain;
-  border-radius: 10px;
-  border-radius: 70px;
+  border-radius: 15px; /* Fixed duplicate border-radius issue */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -66,6 +74,7 @@
     flex-direction: column;
     text-align: center;
     gap: 20px;
+    align-items: center; /* Ensures center alignment */
   }
 
   .experience-item div {
@@ -73,7 +82,12 @@
   }
 
   .experience-img {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centers the image horizontally */
   }
 }

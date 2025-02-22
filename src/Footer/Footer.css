@@ -11,19 +11,37 @@
 
 .footer-contact-icon {
     display: flex;
-    gap: 20px; /* More precise gap */
+    gap: 40px; /* More precise gap */
     align-items: center;
+    margin-right: 90px;
 }
 
 .footer-contact-icon a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem; /* Increased size for better visibility */
-    transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-.footer-contact-icon a:hover {
-    color: rgb(246, 151, 151);
+/* Hover Effect for Different Colors */
+.footer-contact-icon a:nth-child(1):hover {
+    color: blue;
+    transform: scale(1.1);
+}
+
+.footer-contact-icon a:nth-child(2):hover {
+    color: green;
+    transform: scale(1.1);
+}
+
+.footer-contact-icon a:nth-child(3):hover {
+    color: red;
+    transform: scale(1.1);
+}
+
+.footer-contact-icon a:nth-child(4):hover {
+    color: lightblue;
+    transform: scale(1.1);
 }
 
 /* Responsive Design */
@@ -38,5 +56,6 @@
     .footer-contact-icon {
         justify-content: center; /* Center icons */
         gap: 15px; /* Adjust gap for smaller screens */
+        margin-right: 0px;
     }
 }
