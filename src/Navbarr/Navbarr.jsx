@@ -19,7 +19,7 @@ function Navbarr() {
           <li>
             {/* Use Link from react-scroll for smooth scrolling */}
             <Link to="aboutme" smooth={true} duration={500}>
-              About me
+              About Me
             </Link>
           </li>
           <li>
