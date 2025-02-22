@@ -72,3 +72,11 @@
 .dark-mode a:hover {
   color: #ff4ecb;
 }
+
+@media (max-width:1000px) {
+  .darkmode-toggle {
+    bottom: 80px;
+    right: 20px;
+  }
+  
+}
