@@ -23,7 +23,7 @@ function About() {
         <p id="text-conversion-for-dark-mode">Java Full Stack Developer</p>
         <div className="flex flex-wrap gap-4 justify-center">
           <a
-            href="https://drive.google.com/file/d/13CzTOTy_3VEUa987pevtA97DjqXyiPHl/view?usp=sharing"
+            href="https://drive.google.com/file/d/1wUl053VZzfUJuii3u4nwQUq3osrrqIDu/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
