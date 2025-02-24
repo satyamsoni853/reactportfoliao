@@ -7,6 +7,9 @@ import bmiimg from './bmi.png';
 import Pgimg from './pg.png'
 import Todoimg from './todo.png'
 import Calcimg from './calc.png'
+import jokeimg from './Joke.png'
+import lucknowimg from './Lucknow.png'
+import ticimg from './tic.png'
 
 function Project() {
   return (
@@ -157,6 +160,78 @@ function Project() {
             </button>
             <button className="btn fill">
               <a href="https://calc-ten-chi.vercel.app/">Live Demo</a>
+            </button>
+          </div>
+        </motion.div>
+        <motion.div
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+          className="project-container"
+        >
+          <div className="project-wrapper">
+            <div
+              className="banner-image-1 banner-image"
+              style={{ backgroundImage: `url(${ticimg})` }} // Setting background image
+            ></div>
+            <h1 className="font-extrabold"  id="text-conversion-for-dark-mode" >Tic-Tac-Toe </h1>
+            <p>
+            Created a Tic-Tac-Toeapp using React JS
+            </p>
+          </div>
+          <div className="button-wrapper">
+            <button className="btn outline">
+              <a href="https://github.com/satyamsoni853/Tic-tac-Toe2">Github</a>
+            </button>
+            <button className="btn fill">
+              <a href="https://tic-tac-toe2-rose.vercel.app/">Live Demo</a>
+            </button>
+          </div>
+        </motion.div>
+
+        <div className="project-container">
+          <div className="project-wrapper">
+            <div
+              className="banner-image-2 banner-image"
+              style={{ backgroundImage: `url(${lucknowimg})` }} // Setting background image
+            ></div>
+            <h1 className="font-extrabold"  id="text-conversion-for-dark-mode" >Lucknow Football </h1>
+            <p>
+            Developed a Lucknow Football Clone using React JS
+            </p>
+          </div>
+          <div className="button-wrapper">
+            <button className="btn outline">
+              <a href="https://github.com/satyamsoni853/page">Github</a>
+            </button>
+            <button className="btn fill">
+              <a href="https://page-mu-nine.vercel.app/">Live Demo</a>
+            </button>
+          </div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="project-container"
+        >
+          <div className="project-wrapper">
+            <div
+              className="banner-image-3 banner-image"
+              style={{ backgroundImage: `url(${jokeimg})` }} // Setting background image
+            ></div>
+            <h1 className="font-extrabold"  id="text-conversion-for-dark-mode" > Random Joke Generator</h1>
+            <p>
+            Created a Random Joke Genrator using HTML, CSS, and JavaScript 
+            </p>
+          </div>
+          <div className="button-wrapper">
+            <button className="btn outline">
+              <a href="https://github.com/satyamsoni853/Remove-Joke">Github</a>
+            </button>
+            <button className="btn fill">
+              <a href="https://random-joke-by-crazysoni.netlify.app/">Live Demo</a>
             </button>
           </div>
         </motion.div>
