@@ -26,8 +26,9 @@ function App() {
           <Navbarr />
           <About />
           <Aboutme />
-          <Education />
           <Experience/>
+          <Education />
+          
           <Project />
           <Skill />
           <Certification/>

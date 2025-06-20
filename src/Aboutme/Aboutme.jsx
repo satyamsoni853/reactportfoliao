@@ -34,8 +34,10 @@ function Aboutme() {
           >
             Hi i'm Satyam Soni{" "}
           </p>
-      <p className="text-2xl font-bold mr-11">
-  I'm a dedicated Computer Science student specializing in Java Full Stack Web Development. With hands-on experience in web technologies such as HTML, CSS, JavaScript, React JS, and Java, I have built a solid foundation in developing functional and responsive web applications. Additionally, I have knowledge of J2EE, Servlets, Hibernate, Spring Core, Spring MVC, and Spring Boot, further strengthening my backend development expertise. I am passionate about solving complex problems, continuously learning new skills, and applying my knowledge through real-world projects. One such project is <span className="font-semibold">Uniisphere</span>, a real-time company website where I developed the entire frontend using React JS and integrated RESTful APIs to manage dynamic data flow. My goal is to contribute effectively to a dynamic team and deliver impactful solutions.
+        <p className="text-2xl font-bold mr-11">
+  I'm a dedicated Computer Science student specializing in Java Full Stack Web Development. With hands-on experience in web technologies such as HTML, CSS, JavaScript, React JS, and Java, I have built a solid foundation in developing functional and responsive web applications. Additionally, I have knowledge of J2EE, Servlets, Hibernate, Spring Core, Spring MVC, and Spring Boot, further strengthening my backend development expertise. I am passionate about solving complex problems, continuously learning new skills, and applying my knowledge through real-world projects. 
+  Currently, I am working as a <span className="font-semibold">Frontend Developer at Unisphere</span>, where I developed the entire frontend of their real-time company website using React JS and integrated RESTful APIs to manage dynamic data flow. 
+  My goal is to contribute effectively to a dynamic team and deliver impactful solutions.
 </p>
 
         </div>
